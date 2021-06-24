@@ -1,0 +1,3 @@
+To make the "install.sh" script execudable use this following command :
+
+sudo chown +x dotfiles/install.sh
