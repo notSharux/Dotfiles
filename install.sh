@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sudo pacman -S xmonad xmonad-contrib qtile alacritty xterm nitrogen git base-devel pcmanfm firefox xmobar lxappearance vim xarchiver
+sudo pacman -S xmonad xmonad-contrib qtile alacritty xterm nitrogen git base-devel pcmanfm firefox xmobar lxappearance vim xarchiver bspwm sxhkd
 
 # git clone https://aur.archlinux.org/yay
 # cd yay
