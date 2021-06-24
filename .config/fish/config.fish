@@ -271,9 +271,7 @@ alias picom.conf="vim .config/picom.conf"
 alias qtile.py="vim .config/qtile/config.py"
 alias kitty.conf="vim .config/kitty/kitty.conf"
 alias i3wm="vim .config/i3/config"
-#alias files="xplr"
 alias Files="ranger"
-#alias uz="unzip"
 alias update="sudo pacman -Syyu"
 
 
@@ -285,23 +283,8 @@ alias update="sudo pacman -Syyu"
 
 #colorscript random
  
-#colorscript -e bloks
-
-#colorscript -e colorview
-
-#colorscript -e colorwheel
-
-#colorscript -e 00default.sh
-
-
-
-#./fm6000
 
 #./fm6000 -c blue -dog
-
-
-
-#cmatrix -C blue
 
 
 #starship init fish | source
