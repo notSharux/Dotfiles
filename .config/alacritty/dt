@@ -1,0 +1,62 @@
+
+# Background opacity
+#
+# Window opacity as a floating point number from `0.0` to `1.0`.
+# The value `0.0` is completely transparent and `1.0` is opaque.
+#background_opacity: 1.0
+background_opacity: 0.85
+#background_opacity: 0.45
+
+colors:
+  primary:
+    background: '0x282A36'    #0x14161B  #0x1B2B34  #001B33 #282C34  #0x20212B #0x292d3e(dt) #191919 #071733 #282D40
+    foreground: '0xbbc5ff'    #0xbbc5ff #739AE8
+  cursor:
+    text: CellBackground
+    cursor: CellForeground
+  vi_mode_cursor:
+    text: CellBackground
+    cursor: CellForeground
+  search:
+    matches:
+      foreground: '0x44475a'
+      background: '0x50fa7b'
+    focused_match:
+      foreground: '0x44475a'
+      background: '0xffb86c'
+    bar:
+      background: '0x282a36'
+      foreground: '0xf8f8f2'
+  line_indicator:
+    foreground: None
+    background: None
+  selection:
+    text: CellForeground
+    background: '0x44475a'
+  normal:
+    black:   '0x292d3e'
+    red:     '0xf07178'
+    green:   '0xc3e88d'
+    yellow:  '0xffcb6b'
+    blue:    '0x82aaff'
+    magenta: '0xc792ea'
+    cyan:    '0x89ddff'
+    white:   '0xff00ff'
+  bright:
+    black:   '0x434758'
+    red:     '0xff8b92'
+    green:   '0xddffa7'
+    yellow:  '0xffe585'
+    blue:    '0x9cc4ff'
+    magenta: '0xe1acff'
+    cyan:    '0xa3f7ff'
+    white:   '0xffffff'
+  dim:
+    black:   '0x000000'
+    red:     '0x8c3336'
+    green:   '0x7a8530'
+    yellow:  '0x97822e'
+    blue:    '0x506d8f'
+    magenta: '0x80638e'
+    cyan:    '0x80638e'
+    white:   '0x497e7a'
