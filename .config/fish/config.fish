@@ -304,6 +304,6 @@ alias update="sudo pacman -Syyu"
 #cmatrix -C blue
 
 
-starship init fish | source
+#starship init fish | source
 
 
