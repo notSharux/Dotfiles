@@ -2,7 +2,6 @@
 
 sudo pacman -S xmonad xmonad-contrib qtile alacritty xterm nitrogen git base-devel pcmanfm firefox xmobar lxappearance vim xarchiver bspwm sxhkd pulseaudio pavucontrol
 
-sudo chown +x dofiles/install.sh
 
 # yay -S otf-font-awesome-5-free
 # sudo pacman -S ttf-hack-3.003-3
