@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sudo pacman -S xmonad xmonad-contrib qtile alacritty xterm nitrogen git base-devel pcmanfm firefox xmobar lxappearance vim xarchiver bspwm sxhkd pulseaudio pavucontrol
+sudo pacman -S xmonad xmonad-contrib qtile alacritty xterm nitrogen git base-devel pcmanfm firefox xmobar lxappearance vim xarchiver bspwm sxhkd pulseaudio pavucontrol starship
 
 
 # yay -S otf-font-awesome-5-free
