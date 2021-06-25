@@ -210,10 +210,11 @@ keys = [
          ])
 ]
 
-group_names = [("1", {'layout': 'monadtall'}),
-               ("2", {'layout': 'monadtall'}),
-               ("3", {'layout': 'monadtall'}),
-               ("4", {'layout': 'floating'})]
+group_names = [("When", {'layout': 'monadtall'}),
+               ("The", {'layout': 'monadtall'}),
+               ("imposter", {'layout': 'monadtall'}),
+               ("Is", {'layout': 'monadtall'}),
+               ("SUS !1!1!1!", {'layout': 'floating'})]
 
 groups = [Group(name, **kwargs) for name, kwargs in group_names]
 
