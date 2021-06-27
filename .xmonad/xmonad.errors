@@ -1,5 +1,0 @@
-
-xmonad.hs:455:8: error: Empty 'do' block
-    |
-455 | main = do
-    |        ^^
