@@ -287,6 +287,6 @@ alias update="sudo pacman -Syyu"
 #./fm6000 -c blue -dog
 
 
-#starship init fish | source
+starship init fish | source
 
 
