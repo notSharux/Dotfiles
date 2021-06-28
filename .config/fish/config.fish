@@ -289,4 +289,5 @@ alias update="sudo pacman -Syyu"
 
 starship init fish | source
 
-
+#cursor active at boot
+xsetroot -cursor_name left_ptr &
