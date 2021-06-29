@@ -253,41 +253,29 @@ for file in $__fish_config_dir/conf.d/*.fish $__fish_sysconf_dir/conf.d/*.fish $
     and source $file
 end
 
-#------------------------------------------------------------------------------------------------------------------------
-
+###Fish-Welcome##
 set fish_greeting
 
-
-
-neofetch
-
-
-
+####Alias####
 alias xmonad.hs="vim .xmonad/xmonad.hs"
 alias alacritty.yml="vim .config/alacritty/alacritty.yml"
 alias xmobarrc0="vim .config/xmobar/xmobarrc0"
+alias xmobarrc1="vim .config/xmobar/xmobarrc0"
 alias config.fish="vim .config/fish/config.fish"
 alias picom.conf="vim .config/picom.conf"
 alias qtile.py="vim .config/qtile/config.py"
 alias kitty.conf="vim .config/kitty/kitty.conf"
 alias i3wm="vim .config/i3/config"
-alias Files="ranger"
-alias update="sudo pacman -Syyu"
 
 
-#function fish_prompt
-#    powerline-shell --shell bare $status
-#end
+#AutoStart#
+pfetch
 
 
-
-#colorscript random
- 
-
-#./fm6000 -c blue -dog
-
-
+####StarShip-Shell-Promt###
 starship init fish | source
 
+
 #cursor active at boot
-xsetroot -cursor_name left_ptr &
+#xsetroot -cursor_name left_ptr &
+
