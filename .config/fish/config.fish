@@ -270,6 +270,7 @@ alias i3wm="vim .config/i3/config"
 
 #AutoStart#
 pfetch
+curl wttr.in
 
 
 ####StarShip-Shell-Promt###
