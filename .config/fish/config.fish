@@ -266,6 +266,7 @@ alias picom.conf="vim .config/picom.conf"
 alias qtile.py="vim .config/qtile/config.py"
 alias kitty.conf="vim .config/kitty/kitty.conf"
 alias i3wm="vim .config/i3/config"
+alias wetter="curl wttr.in"
 
 
 #AutoStart#
