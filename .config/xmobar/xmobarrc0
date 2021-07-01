@@ -9,7 +9,7 @@ Config { font    = "xft:Ubuntu:weight=bold:pixelsize=11:antialias=true:hinting=t
                            ]
        , bgColor = "#181c40"
        , fgColor = "#ff6c6b"
-       , position = Static { xpos = 1910, ypos = 0, width = 1940, height = 24 }
+       , position = Static { xpos = 1910, ypos = 0, width = 1938, height = 24 }
        , lowerOnStart = True
        , hideOnStart = False
        , allDesktops = False
