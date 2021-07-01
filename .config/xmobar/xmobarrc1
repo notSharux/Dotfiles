@@ -14,7 +14,7 @@ Config { font    = "xft:Ubuntu:weight=bold:pixelsize=11:antialias=true:hinting=t
        , hideOnStart = False
        , allDesktops = False
        , persistent = True
-       , iconRoot = "/home/dt/.xmonad/xpm/"  -- default: "."
+       , iconRoot = "/home/tobias/.xmonad/xpm/"  -- default: "."
        , commands = [
                     -- Time and date
                       Run Date "<fn=2>\xf017</fn>  %b %d %Y - %H:%M " "date" 50
