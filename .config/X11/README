@@ -1,0 +1,2 @@
+package : xorg-xinit
+sudo pacman -S xorg-xinit
