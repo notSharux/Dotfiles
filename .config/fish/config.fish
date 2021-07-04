@@ -262,8 +262,9 @@ alias startx="startx ~/.config/X11/xinitrc"
 
 
 #AutoStart#
-pfetch
-curl wttr.in
+neofetch
+#pfetch
+#curl wttr.in
 
 
 ####StarShip-Shell-Promt###
