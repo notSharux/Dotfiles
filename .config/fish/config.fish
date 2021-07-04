@@ -257,16 +257,8 @@ end
 set fish_greeting
 
 ####Alias####
-alias xmonad.hs="vim .xmonad/xmonad.hs"
-alias alacritty.yml="vim .config/alacritty/alacritty.yml"
-alias xmobarrc0="vim .config/xmobar/xmobarrc0"
-alias xmobarrc1="vim .config/xmobar/xmobarrc0"
-alias config.fish="vim .config/fish/config.fish"
-alias picom.conf="vim .config/picom.conf"
-alias qtile.py="vim .config/qtile/config.py"
-alias kitty.conf="vim .config/kitty/kitty.conf"
-alias i3wm="vim .config/i3/config"
 alias wetter="curl wttr.in"
+alias startx="startx ~/.config/X11/xinitrc"
 
 
 #AutoStart#
