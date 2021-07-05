@@ -340,6 +340,7 @@ fi
 ####Alias####
 alias wetter="curl wttr.in"
 alias startx="startx ~/.config/X11/xinitrc"
+alias wetter="curl wttr.in"
 
 
 #AutoStart#
