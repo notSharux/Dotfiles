@@ -109,26 +109,26 @@ font:
     #   - (macOS) Menlo
     #   - (Linux/BSD) monospace
     #   - (Windows) Consolas
-    family: Source Code Pro
+    # family: Source Code Pro
     # family: CodeNewRoman Nerd Font
     # family: RobotoMono Nerd Font
     # family: Hack
-    # family: JetBrains Mono
+    family: JetBrains Mono
     # family: UbuntuMono Nerd Font
     # family: Monofur Nerd Font
     # family: TerminessTTF Nerd Font
     # family: Mononoki Nerd Font
 
     # The `style` can be specified to pick a specific face.
-    style: Regular
+    style: Medium
 
   # Bold font face
-  bold:
+  # bold:
     # Font family
     #
     # If the bold family is not specified, it will fall back to the
     # value specified for the normal font.
-    family: Source Code Pro
+    # family: Source Code Pro
     # family: CodeNewRoman Nerd Font
     # family: RobotoMono Nerd Font
     # family: Hack
@@ -138,16 +138,16 @@ font:
     # family: TerminessTTF Nerd Font
     # family: Mononoki Nerd Font
 
-    # The `style` can be specified to pick a specific face.
-    style: Bold
+    # The `style` can be specified to pick a specfic face.
+    # style: Bold
 
   # Italic font face
-  italic:
+  # italic:
     # Font family
     #
     # If the italic family is not specified, it will fall back to the
     # value specified for the normal font.
-    family: Source Code Pro
+    # family: Source Code Pro
     # family: CodeNewRoman Nerd Font
     # family: RobotoMono Nerd Font
     # family: Hack
@@ -158,15 +158,15 @@ font:
     # family: Mononoki Nerd Font
 
     # The `style` can be specified to pick a specific face.
-    style: Italic
+    # style: Italic
 
   # Bold italic font face
-  bold_italic:
+  # bold_italic:
     # Font family
     #
     # If the bold italic family is not specified, it will fall back to the
     # value specified for the normal font.
-    family: Source Code Pro
+    # family: Source Code Pro
     # family: CodeNewRoman Nerd Font
     # family: RobotoMono Nerd Font
     # family: Hack
@@ -177,10 +177,10 @@ font:
     # family: Mononoki Nerd Font
 
     # The `style` can be specified to pick a specific face.
-    style: Bold Italic
+    # style: Bold Italic
 
   # Point size
-  size: 11.0
+  size: 15.0
 
   # Offset is the extra space around each character. `offset.y` can be thought of
   # as modifying the line spacing, and `offset.x` as modifying the letter spacing.
@@ -216,30 +216,41 @@ font:
 colors:
   # Default colors
   primary:
-    background: '#000000'
-    foreground: '#dddddd'
+    background: '#0d1926' #0d1926
+    foreground: '#b4e1fd' #b4e1fd
 
   # Normal colors
   normal:
-    black:   '#000000'
-    red:     '#cc0403'
-    green:   '#19cb00'
-    yellow:  '#cecb00'
-    blue:    '#0d73cc'
-    magenta: '#cb1ed1'
-    cyan:    '#0dcdcd'
-    white:   '#dddddd'
+    black:   '#191919'
+    red:     '#b02626'
+    green:   '#40a62f'
+    yellow:  '#f2e635'
+    blue:    '#314ad0'
+    magenta: '#b30ad0'
+    cyan:    '#32d0fc'
+    white:   '#acadb1'
 
   # Bright colors
   bright:
-    black:   '#767676'
-    red:     '#f2201f'
-    green:   '#23fd00'
-    yellow:  '#fffd00'
-    blue:    '#1a8fff'
-    magenta: '#fd28ff'
-    cyan:    '#14ffff'
-    white:   '#ffffff'
+    black:   '#36393d'
+    red:     '#ce2727'
+    green:   '#47c930'
+    yellow:  '#fff138'
+    blue:    '#2e4bea'
+    magenta: '#cc15ed'
+    cyan:    '#54d9ff'
+    white:   '#dbdbdb'
+
+  # Dim colors
+  dim:
+    black:   '#676f78'
+    red:     '#b55454'
+    green:   '#78a670'
+    yellow:  '#faf380'
+    blue:    '#707fd0'
+    magenta: '#c583d0'
+    cyan:    '#8adaf1'
+    white:   '#e0e3e7'
 
 #--------------------------------------------------------------------------------------
 
