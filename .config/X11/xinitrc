@@ -1,4 +1,6 @@
 dhcpcd &
 
+slstatus &
+
 exec xmonad
 
