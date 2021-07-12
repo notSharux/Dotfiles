@@ -340,11 +340,10 @@ fi
 
 ####Alias####
 alias wetter="curl wttr.in"
-alias startx="startx ~/.config/X11/xinitrc"
 
 
 #AutoStart#
-neofetch
+#neofetch
 #pfetch
 #curl wttr.in
 
@@ -353,8 +352,11 @@ neofetch
 eval "$(starship init zsh)"
 
 
-#sudo pacman -S zsh-syntax-highlighting zsh-autosuggestions / yay -S autojump
+#sudo pacman -S zsh-syntax-highlighting zsh-autosuggestions zsh-history-substring-search / yay -S autojump
+
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh 2 >/dev/null
 source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh 2>/dev/null
 source /usr/share/autojump/autojump.zsh 2>/dev/null
+source /usr/share/zsh/plugins/zsh-history-substring-search/zsh-history-substring-search.zsh
+
 
