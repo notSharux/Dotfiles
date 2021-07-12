@@ -1,6 +1,0 @@
-dhcpcd &
-
-slstatus &
-
-exec xmonad
-

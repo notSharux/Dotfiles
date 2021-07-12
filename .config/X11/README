@@ -1,5 +1,0 @@
-package : xorg-xinit
-
-sudo pacman -S xorg-xinit
-
-sudo systemctl enable dhcpcd.service
