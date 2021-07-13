@@ -54,6 +54,12 @@ dhcpcd &
 # Start slstatus
 slstatus &
 
+# Sets Wallpaper with FEH
+#~./fehbg &
+
+# Sets Wallpaper with Nitrogen
+#nitrogen --restore &
+
 # Activates Cursor on boot
 xsetroot -cursor_name left_ptr &
 
