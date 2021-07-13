@@ -1,7 +1,9 @@
 #!/bin/bash
 
+su
+
 ls /usr/share/zoneinfo/
 
-sudo rm /etc/localtime
+rm /etc/localtime
 
-sudo ln -sf /usr/share/zoneinfo/Europe/Vienna /etc/localtime
+ln -sf /usr/share/zoneinfo/Europe/Vienna /etc/localtime
