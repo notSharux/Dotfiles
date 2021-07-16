@@ -1,1 +1,1 @@
-pacman -S ntfs-3g fuse
+pacman -S ntfs-3g fuse nautilus
