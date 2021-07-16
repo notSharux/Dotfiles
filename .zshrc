@@ -340,6 +340,7 @@ fi
 
 ####Alias####
 alias wetter="curl wttr.in"
+alias es="~/.emacs.d/bin/doom sync"
 
 
 #AutoStart#
