@@ -1,0 +1,6 @@
+(setq doom-theme 'doom-city-lights)
+
+
+
+(setq doom-font (font-spec :family "JetBrains Mono" :size 10))
+(setq neo-window-fixed-size nil)
