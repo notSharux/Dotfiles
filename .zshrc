@@ -341,10 +341,16 @@ fi
 ####Alias####
 alias wetter="curl wttr.in"
 alias es="~/.emacs.d/bin/doom sync"
+alias ls='ls --color=auto'
+ls1="ls -hN --color=auto --group-directories-first" \
+grep="grep --color=auto" \
+diff="diff --color=auto" \
+ccat="highlight --out-format=ansi"
+
 
 
 #AutoStart#
-#neofetch
+neofetch
 #pfetch
 #curl wttr.in
 
