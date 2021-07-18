@@ -6,7 +6,7 @@ static const unsigned int gappx     = 5;        /* gaps between windows */
 static const unsigned int snap      = 32;       /* snap pixel */
 static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
-static const char *fonts[]          = { "System-ui:size=14", "fontawesome:size=14" }; 
+static const char *fonts[]          = { "System-ui:size=12", "fontawesome:size=12" }; 
 static const char dmenufont[]       = "System-ui:size=12";
 static const char col_gray1[]       = "#222222";
 static const char col_gray2[]       = "#444444";
