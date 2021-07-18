@@ -397,4 +397,11 @@ SPACESHIP_TERRAFORM_SHOW=false
 SPACESHIP_VI_MODE_SHOW=false
 SPACESHIP_JOBS_SHOW=false
 
+# Colors
+autoload -U colors && colors
+
+# History
+HISTSIZE=1000
+SAVEHIST=1000
+HISTFILE=~/.config/zsh/history
 
