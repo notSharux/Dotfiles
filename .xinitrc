@@ -54,19 +54,26 @@ dhcpcd &
 # Start slstatus
 slstatus &
 
-# Sets Wallpaper with FEH
-#~./fehbg &
+# Picom
+#picom &
 
-# Sets Wallpaper with Nitrogen
+# Nitrogen
 #nitrogen --restore &
 
+# LXsession
+lxsession &
+
 # Activates Cursor on boot
-xsetroot -cursor_name left_ptr &
+xsetroot -cursor_name left_
+
+# Xresources
+xrdb ~/.Xresources &
 
 # Loop
 while true ; do
-	dwm >/dev/null 2>&1
-done	
+    dwm >/dev/null 2>&1
+done
 
 # Exec dwm
 exec dwm
+
