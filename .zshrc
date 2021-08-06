@@ -340,13 +340,15 @@ fi
 
 ####Alias####
 alias wetter="curl wttr.in"
-alias es="~/.emacs.d/bin/doom sync"
+#alias es="~/.emacs.d/bin/doom sync"
 alias ls='ls --color=auto'
-ls1="ls -hN --color=auto --group-directories-first" \
-grep="grep --color=auto" \
-diff="diff --color=auto" \
-ccat="highlight --out-format=ansi"
-
+alias ls1="ls -hN --color=auto --group-directories-first"
+alias grep="grep --color=auto"
+alias diff="diff --color=auto"
+alias ccat="highlight --out-format=ansi"
+alias v="nvim"
+alias x="xplr"
+alias ..="cd .."
 
 
 #AutoStart#
@@ -359,12 +361,12 @@ neofetch
 eval "$(starship init zsh)"
 
 
-#sudo pacman -S zsh-syntax-highlighting zsh-autosuggestions zsh-history-substring-search / yay -S autojump
+#sudo pacman -S zsh-syntax-highlighting zsh-autosuggestions  /  zsh-history-substring-search / yay -S autojump
 
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh 2 >/dev/null
 source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh 2>/dev/null
 source /usr/share/autojump/autojump.zsh 2>/dev/null
-source /usr/share/zsh/plugins/zsh-history-substring-search/zsh-history-substring-search.zsh
+#source /usr/share/zsh/plugins/zsh-history-substring-search/zsh-history-substring-search.zsh
 
 
 SPACESHIP_PROMPT_ADD_NEWLINE=false
@@ -404,4 +406,3 @@ autoload -U colors && colors
 HISTSIZE=1000
 SAVEHIST=1000
 HISTFILE=~/.config/zsh/history
-
