@@ -576,6 +576,17 @@ xplr.config.modes.builtin.default = {
           "ExplorePwdAsync"
         }
       },
+      ["e"] = {
+        help = "open in editor",
+        messages = {
+          {
+            BashExec = [===[
+            ${EDITOR:-nvim} "${XPLR_FOCUS_PATH:?}"
+            ]===]
+          },
+          "PopMode",
+        }
+      },
       [":"] = {
         help = "action",
         messages = {
@@ -1300,17 +1311,17 @@ xplr.config.modes.builtin.action = {
         help = "terminate",
         messages = {"Terminate"}
       },
-      ["e"] = {
-        help = "open in editor",
-        messages = {
-          {
-            BashExec = [===[
-            ${EDITOR:-vi} "${XPLR_FOCUS_PATH:?}"
-            ]===]
-          },
-          "PopMode",
-        }
-      },
+--     ["e"] = {
+--        help = "open in editor",
+--        messages = {
+--          {
+--            BashExec = [===[
+--            ${EDITOR:-nvim} "${XPLR_FOCUS_PATH:?}"
+ --          ]===]
+ --         },
+--          "PopMode",
+--        }
+--      },
       esc = {
         help = "cancel",
         messages = {"PopMode"}
