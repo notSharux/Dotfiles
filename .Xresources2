@@ -1,0 +1,54 @@
+Xft.dpi: 96
+Xft.antialias: true
+Xft.hinting: true
+Xft.rgba: rgb
+Xft.autohint: true
+Xft.hintstyle: hintfull
+Xft.lcdfilter: lcdfilter
+
+
+URxvt.intensityStyles: true
+URxvt.font: xft:Jet Brains Mono:size=10, \
+            xft:fontawesome:size=10, \
+            xft:Monospace:style=Medium:size=10
+URxvt.scrollBar: false
+URxvt.cursorColor: white
+
+
+! special
+*.foreground:   #d8dee9
+*.background:   #191919
+*.cursorColor:  #d8dee9
+
+! black
+*.color0:       #191919
+*.color8:       #36393d
+
+! red
+*.color1:       #b02626
+*.color9:       #ce2727
+
+! green
+*.color2:       #40a62f
+*.color10:      #47c930
+
+! yellow
+*.color3:       #f2e635
+*.color11:      #fff138
+
+! blue
+*.color4:       #314ad0
+*.color12:      #2e4bea
+
+! magenta
+*.color5:       #b30ad0
+*.color13:      #cc15ed
+
+! cyan
+*.color6:       #32d0fc
+*.color14:      #54d9ff
+
+! white
+*.color7:       #acadb1
+*.color15:      #dbdbdb
+
