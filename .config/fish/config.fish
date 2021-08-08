@@ -258,7 +258,16 @@ set fish_greeting
 
 ####Alias####
 alias wetter="curl wttr.in"
-alias startx="startx ~/.config/X11/xinitrc"
+alias es="~/.emacs.d/bin/doom sync"
+alias ls='ls --color=auto'
+alias ls1="ls -hN --color=auto --group-directories-first"
+alias grep="grep --color=auto"
+alias diff="diff --color=auto"
+alias ccat="highlight --out-format=ansi"
+alias v="nvim"
+alias x="xplr"
+alias ..="cd .."
+alias xrdb="xrdb ~/.Xresources"
 
 
 #AutoStart#
@@ -269,7 +278,6 @@ neofetch
 
 ####StarShip-Shell-Promt###
 starship init fish | source
-
 
 #cursor active at boot
 #xsetroot -cursor_name left_ptr &
