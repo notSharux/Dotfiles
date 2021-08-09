@@ -22,6 +22,21 @@ Sxiv.background:   #282c34
 Sxiv.font: JetBrains Mono:style=Medium:size=11
 
 
+dwm.normbordercolor: 282c34
+dwm.normbgcolor: #282c34
+dwm.normfgcolor: #c5c8c6
+dwm.selbordercolor: #3971ed
+dwm.selbgcolor: #3971ed
+dwm.selfgcolor: #c5c8c6
+
+
+dmenu.font: JetBrains Mono:style=Medium:size=11
+dmenu.background: #282c34
+dmenu.foreground: #c5c8c6
+dmenu.selbackground: #3971ed
+dmenu.selforeground: #c5c8c6
+
+
 ! special
 *.foreground:   #c5c8c6
 *.background:   #1d1f21
