@@ -1,3 +1,4 @@
+
 Xft.dpi: 96
 Xft.antialias: true
 Xft.hinting: true
@@ -13,6 +14,12 @@ URxvt.font: xft:Jet Brains Mono:size=10, \
             xft:Monospace:style=Medium:size=10
 URxvt.scrollBar: false
 URxvt.cursorColor: white
+
+
+! COLORS FOR SXIV
+Sxiv.foreground:   #bbc2cf
+Sxiv.background:   #282c34
+Sxiv.font: JetBrains Mono:style=Medium:size=11
 
 
 ! special
