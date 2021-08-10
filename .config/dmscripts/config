@@ -14,7 +14,7 @@ DMBROWSER="firefox"
 # DMBROWSER="qutebrowser"
 
 # DMTERM="st -e"
-DMTERM="alacritty -e"
+DMTERM="st -e"
 
 # DMEDITOR="emacsclient -c -a emacs"
 DMEDITOR="${DMTERM} nvim"
