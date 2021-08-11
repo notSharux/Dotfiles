@@ -13,10 +13,8 @@ DMENU="dmenu"
 DMBROWSER="firefox"
 # DMBROWSER="qutebrowser"
 
-# DMTERM="st -e"
 DMTERM="st -e"
 
-# DMEDITOR="emacsclient -c -a emacs"
 DMEDITOR="${DMTERM} nvim"
 
 # dm-logout
