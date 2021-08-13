@@ -1,5 +1,4 @@
 
-
 Xft.dpi: 96
 Xft.antialias: true
 Xft.hinting: true
@@ -10,7 +9,7 @@ Xft.lcdfilter: lcdfilter
 
 
 URxvt.intensityStyles: true
-URxvt.font: xft:Jet Brains Mono:size=10, \
+URxvt.font: xft:JetBrains Mono:style=Medium:size=10, \
             xft:fontawesome:size=10, \
             xft:Monospace:style=Medium:size=10
 URxvt.scrollBar: false
@@ -31,7 +30,7 @@ dwm.selbgcolor: #3f51b4
 dwm.selfgcolor: #eeeeee
 
 
-dmenu.font: JetBrains Mono:style=Medium:size=11
+dmenu.font: Segoe UI:size=11
 dmenu.background: #1f2937
 dmenu.foreground: #eeeeee
 dmenu.selbackground: #3f51b4
