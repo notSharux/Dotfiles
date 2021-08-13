@@ -23,8 +23,8 @@ Sxiv.background:   #282c34
 Sxiv.font: JetBrains Mono:style=Medium:size=11
 
 
-dwm.normbordercolor: #282c34
-dwm.normbgcolor: #282c34
+dwm.normbordercolor: #1f2937
+dwm.normbgcolor: #1f2937
 dwm.normfgcolor: #eeeeee
 dwm.selbordercolor: #536dfe
 dwm.selbgcolor: #3f51b4
@@ -32,10 +32,10 @@ dwm.selfgcolor: #eeeeee
 
 
 dmenu.font: JetBrains Mono:style=Medium:size=11
-dmenu.background: #282c34
-dmenu.foreground: #c5c8c6
-dmenu.selbackground: #3971ed
-dmenu.selforeground: #c5c8c6
+dmenu.background: #1f2937
+dmenu.foreground: #eeeeee
+dmenu.selbackground: #3f51b4
+dmenu.selforeground: #eeeeee
 
 
 ! special
@@ -74,4 +74,3 @@ dmenu.selforeground: #c5c8c6
 ! white
 *.color7:       #c5c8c6
 *.color15:      #ffffff
-
