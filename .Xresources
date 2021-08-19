@@ -1,4 +1,5 @@
 
+
 Xft.dpi: 96
 Xft.antialias: true
 Xft.hinting: true
@@ -8,12 +9,57 @@ Xft.hintstyle: hintfull
 Xft.lcdfilter: lcdfilter
 
 
+! XTerm
+XTerm*renderFont: true
+XTerm*faceName: xft:Mononoki Nerd Font, \
+                xft:JoyPixels:size=12, \
+                xft:Monospace:style=Medium:size=12
+XTerm*faceSize: 11
+XTerm*utf8: 2
+XTerm*locale: true
+
+XTerm.vt100.translations: #override \n\
+  Ctrl <Key> j: smaller-vt-font() \n\
+  Ctrl <Key> k: larger-vt-font()
+
+
+! Every shell is a login shell by default (for inclusion of all necessary environment variables)
+XTerm*loginshell: true
+
+! I like a LOT of scrollback...
+XTerm*savelines: 16384
+
+! double-click to select whole URLs :D
+XTerm*charClass: 33:48,36-47:48,58-59:48,61:48,63-64:48,95:48,126:48
+
+
+! urxvt
 URxvt.intensityStyles: true
 URxvt.font: xft:JetBrains Mono:style=Medium:size=10, \
             xft:fontawesome:size=10, \
             xft:Monospace:style=Medium:size=10
 URxvt.scrollBar: false
 URxvt.cursorColor: white
+
+!! Extensions
+URxvt.perl-ext-common: default,matcher,resize-font,url-select,keyboard-select,clipboard
+URxvt.colorUL: #4682B4
+!! url-select
+URxvt.keysym.M-u: perl:url-select:select_next
+URxvt.url-select.launcher: urxvt -e lynx -cfg=~/.lynx.cfg -lss=~/.lynx.lss
+URxvt.url-select.underline: true
+!! keyboard-select:
+URxvt.keysym.M-Escape: perl:keyboard-select:activate
+!! resize-font
+URxvt.keysym.C-k:   font-size:increase
+URxvt.keysym.C-j:   font-size:decrease
+!! Matcher
+URxvt.url-launcher:	urxvt -e lynx -cfg=~/.lynx.cfg -lss=~/.lynx.lss
+URxvt.matcher.button: 1
+!!clipboard
+URxvt.keysym.M-c: perl:clipboard:copy
+URxvt.keysym.M-v: perl:clipboard:paste
+URxvt*depth: 32
 
 
 ! COLORS FOR SXIV
@@ -22,14 +68,23 @@ Sxiv.background:   #282c34
 Sxiv.font: JetBrains Mono:style=Medium:size=11
 
 
-dwm.normbordercolor: #1f2937
-dwm.normbgcolor: #1f2937
+! dwm
+dwm.normbgcolor: #282c34
+dwm.normbordercolor: #282c34
 dwm.normfgcolor: #eeeeee
-dwm.selbordercolor: #536dfe
-dwm.selbgcolor: #3f51b4
+dwm.selbgcolor: #E06C75
+dwm.selbordercolor: #327bd1
 dwm.selfgcolor: #eeeeee
+dwm.borderpx: 2
+dwm.snap: 32
+dwm.showbar: 1
+dwm.topbar: 1
+dwm.nmaster: 1
+dwm.resizehints: 1
+dwm.mfact: 0.55
 
 
+! dmenu
 dmenu.font: Segoe UI:size=11
 dmenu.background: #1f2937
 dmenu.foreground: #eeeeee
