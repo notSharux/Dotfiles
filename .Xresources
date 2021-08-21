@@ -69,11 +69,12 @@ Sxiv.font: JetBrains Mono:style=Medium:size=11
 
 
 ! dwm
-dwm.normbgcolor: #282c34
-dwm.normbordercolor: #282c34
+dwm.font: Segoe UI:size=11
+dwm.normbgcolor: #1f2937
+dwm.normbordercolor: #1f2937
 dwm.normfgcolor: #eeeeee
-dwm.selbgcolor: #E06C75
-dwm.selbordercolor: #327bd1
+dwm.selbgcolor: #3f51b4
+dwm.selbordercolor: #536dfe
 dwm.selfgcolor: #eeeeee
 dwm.borderpx: 2
 dwm.snap: 32
