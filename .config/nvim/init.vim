@@ -92,7 +92,7 @@ map <leader>k <C-w>k
 map <leader>l <C-w>l
 
 " FZF
-nnoremap <leader>p :FZF<Return>
+nnoremap <leader>p :FZF ~<Return>
 
 " coc settings
 source ~/.config/nvim/coc-settings.vim
