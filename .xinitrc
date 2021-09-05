@@ -50,25 +50,11 @@ fi
 
 # Start ethernet
 dhcpcd &
-
-# Start slstatus
 slstatus &
-
-# Picom
-#picom &
-
-# Nitrogen
-#nitrogen --restore &
-
-# LXsession
-lxsession &
-
-# Activates Cursor on boot
+picom &
+nitrogen --restore &
 xsetroot -cursor_name left_
-
-# Xresources
 xrdb ~/.Xresources &
-
 setxkbmap de &
 
 # Loop
@@ -76,6 +62,7 @@ while true ; do
     dwm >/dev/null 2>&1
 done
 
-# Exec dwm
+
+
 exec dwm
 
