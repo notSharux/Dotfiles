@@ -1,5 +1,4 @@
 
-
 Xft.dpi: 96
 Xft.antialias: true
 Xft.hinting: true
@@ -9,57 +8,12 @@ Xft.hintstyle: hintfull
 Xft.lcdfilter: lcdfilter
 
 
-! XTerm
-XTerm*renderFont: true
-XTerm*faceName: xft:Mononoki Nerd Font, \
-                xft:JoyPixels:size=12, \
-                xft:Monospace:style=Medium:size=12
-XTerm*faceSize: 11
-XTerm*utf8: 2
-XTerm*locale: true
-
-XTerm.vt100.translations: #override \n\
-  Ctrl <Key> j: smaller-vt-font() \n\
-  Ctrl <Key> k: larger-vt-font()
-
-
-! Every shell is a login shell by default (for inclusion of all necessary environment variables)
-XTerm*loginshell: true
-
-! I like a LOT of scrollback...
-XTerm*savelines: 16384
-
-! double-click to select whole URLs :D
-XTerm*charClass: 33:48,36-47:48,58-59:48,61:48,63-64:48,95:48,126:48
-
-
-! urxvt
 URxvt.intensityStyles: true
-URxvt.font: xft:JetBrains Mono:style=Medium:size=10, \
+URxvt.font: xft:Jet Brains Mono:size=10, \
             xft:fontawesome:size=10, \
             xft:Monospace:style=Medium:size=10
 URxvt.scrollBar: false
 URxvt.cursorColor: white
-
-!! Extensions
-URxvt.perl-ext-common: default,matcher,resize-font,url-select,keyboard-select,clipboard
-URxvt.colorUL: #4682B4
-!! url-select
-URxvt.keysym.M-u: perl:url-select:select_next
-URxvt.url-select.launcher: urxvt -e lynx -cfg=~/.lynx.cfg -lss=~/.lynx.lss
-URxvt.url-select.underline: true
-!! keyboard-select:
-URxvt.keysym.M-Escape: perl:keyboard-select:activate
-!! resize-font
-URxvt.keysym.C-k:   font-size:increase
-URxvt.keysym.C-j:   font-size:decrease
-!! Matcher
-URxvt.url-launcher:	urxvt -e lynx -cfg=~/.lynx.cfg -lss=~/.lynx.lss
-URxvt.matcher.button: 1
-!!clipboard
-URxvt.keysym.M-c: perl:clipboard:copy
-URxvt.keysym.M-v: perl:clipboard:paste
-URxvt*depth: 32
 
 
 ! COLORS FOR SXIV
@@ -68,25 +22,15 @@ Sxiv.background:   #282c34
 Sxiv.font: JetBrains Mono:style=Medium:size=11
 
 
-! dwm
-dwm.font: Segoe UI:size=11
-dwm.normbgcolor: #1f2937
 dwm.normbordercolor: #1f2937
+dwm.normbgcolor: #1f2937
 dwm.normfgcolor: #eeeeee
-dwm.selbgcolor: #3f51b4
 dwm.selbordercolor: #536dfe
+dwm.selbgcolor: #3f51b4
 dwm.selfgcolor: #eeeeee
-dwm.borderpx: 2
-dwm.snap: 32
-dwm.showbar: 1
-dwm.topbar: 1
-dwm.nmaster: 1
-dwm.resizehints: 1
-dwm.mfact: 0.55
 
 
-! dmenu
-dmenu.font: Segoe UI:size=11
+dmenu.font: JetBrains Mono:style=Medium:size=11
 dmenu.background: #1f2937
 dmenu.foreground: #eeeeee
 dmenu.selbackground: #3f51b4
@@ -94,38 +38,38 @@ dmenu.selforeground: #eeeeee
 
 
 ! special
-*.foreground:   #BBC2CF
-*.background:   #21242b
-*.cursorColor:  #d8dee9
+*.foreground:   #c5c8c6
+*.background:   #1d1f21
+*.cursorColor:  #c5c8c6
 
 ! black
-*.color0:       #1B2229
-*.color8:       #1B2229
+*.color0:       #1d1f21
+*.color8:       #969896
 
 ! red
-*.color1:       #FF6C6B
-*.color9:       #FF6C6B
+*.color1:       #cc342b
+*.color9:       #cc342b
 
 ! green
-*.color2:       #98BE65
-*.color10:      #98BE65
+*.color2:       #198844
+*.color10:      #198844
 
 ! yellow
-*.color3:       #ECBE7B
-*.color11:      #ECBE7B
+*.color3:       #fba922
+*.color11:      #fba922
 
 ! blue
-*.color4:       #51AFEF
-*.color12:      #51AFEF
+*.color4:       #3971ed
+*.color12:      #3971ed
 
 ! magenta
-*.color5:       #C678DD
-*.color13:      #C678DD
+*.color5:       #a36ac7
+*.color13:      #a36ac7
 
 ! cyan
-*.color6:       #46D9FF
-*.color14:      #46D9FF
+*.color6:       #3971ed
+*.color14:      #3971ed
 
 ! white
-*.color7:       #DFDFDF
-*.color15:      #DFDFDF
+*.color7:       #c5c8c6
+*.color15:      #ffffff
