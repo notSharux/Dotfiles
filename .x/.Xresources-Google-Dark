@@ -1,0 +1,75 @@
+
+Xft.dpi: 96
+Xft.antialias: true
+Xft.hinting: true
+Xft.rgba: rgb
+Xft.autohint: true
+Xft.hintstyle: hintfull
+Xft.lcdfilter: lcdfilter
+
+
+URxvt.intensityStyles: true
+URxvt.font: xft:Jet Brains Mono:size=10, \
+            xft:fontawesome:size=10, \
+            xft:Monospace:style=Medium:size=10
+URxvt.scrollBar: false
+URxvt.cursorColor: white
+
+
+! COLORS FOR SXIV
+Sxiv.foreground:   #bbc2cf
+Sxiv.background:   #282c34
+Sxiv.font: JetBrains Mono:style=Medium:size=11
+
+
+dwm.normbordercolor: #1f2937
+dwm.normbgcolor: #1f2937
+dwm.normfgcolor: #eeeeee
+dwm.selbordercolor: #536dfe
+dwm.selbgcolor: #3f51b4
+dwm.selfgcolor: #eeeeee
+
+
+dmenu.font: JetBrains Mono:style=Medium:size=11
+dmenu.background: #1f2937
+dmenu.foreground: #eeeeee
+dmenu.selbackground: #3f51b4
+dmenu.selforeground: #eeeeee
+
+
+! special
+*.foreground:   #c5c8c6
+*.background:   #1d1f21
+*.cursorColor:  #c5c8c6
+
+! black
+*.color0:       #1d1f21
+*.color8:       #969896
+
+! red
+*.color1:       #cc342b
+*.color9:       #cc342b
+
+! green
+*.color2:       #198844
+*.color10:      #198844
+
+! yellow
+*.color3:       #fba922
+*.color11:      #fba922
+
+! blue
+*.color4:       #3971ed
+*.color12:      #3971ed
+
+! magenta
+*.color5:       #a36ac7
+*.color13:      #a36ac7
+
+! cyan
+*.color6:       #3971ed
+*.color14:      #3971ed
+
+! white
+*.color7:       #c5c8c6
+*.color15:      #ffffff
