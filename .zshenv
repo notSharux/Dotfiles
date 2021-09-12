@@ -1,0 +1,10 @@
+export EDITOR="nvim"
+export VISUAL="nvim"
+export TERMINAL="alacritty"
+export BROWSER="firefox"
+export VIDEO="mpv"
+export IMAGE="sxiv"
+export WM="dwm"
+
+export PF_SEP=":"
+export PF_INFO="ascii title os kernel wm editor shell pkgs memory palette"
