@@ -21,7 +21,7 @@ export BROWSER="firefox"
 export VIDEO="mpv"
 export IMAGE="sxiv"
 
-####Alias####
+# Aliases
 alias \
   wetter="curl wttr.in" \
   es="~/.emacs.d/bin/doom sync" \
