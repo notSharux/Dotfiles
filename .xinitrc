@@ -55,13 +55,13 @@ picom &
 nitrogen --restore &
 xsetroot -cursor_name left_
 xrdb ~/.Xresources &
-setxkbmap de &
+lxsession &
+#setxkbmap de &
 
 # Loop
 while true ; do
     dwm >/dev/null 2>&1
 done
-
 
 
 exec dwm
