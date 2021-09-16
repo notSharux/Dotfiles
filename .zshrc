@@ -427,3 +427,5 @@ if [ "$TERM" = "linux" ]; then
     echo -en "\e]PFFFFFFF" #white
     clear #for background artifacting
 fi
+
+bindkey -v
